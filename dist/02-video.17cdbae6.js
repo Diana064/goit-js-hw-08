@@ -510,7 +510,7 @@ var _lodash = require("lodash");
 const iframe = document.querySelector("iframe");
 const player = new (0, _playerDefault.default)(iframe);
 player.on("timeupdate", (0, _lodash.throttle)(onTimedUpdate, 1000));
-function onTimedUpdate(ц) {
+function onTimedUpdate(e) {
     localStorage.setItem("videoplayer-current-time", e.seconds);
 }
 const getTimeSum = localStorage.getItem("videoplayer-current-time");
