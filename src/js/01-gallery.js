@@ -2,7 +2,7 @@
 
 import SimpleLightbox from 'simplelightbox';
 import SimpleLightbox from 'simplelightbox/dist/simple-lightbox.esm';
-// Change code below this line
+
 import { galleryItems } from './gallery-items';
 
 const gallery = galleryItems;

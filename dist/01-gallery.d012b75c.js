@@ -509,7 +509,6 @@ var _simplelightbox = require("simplelightbox");
 var _simplelightboxDefault = parcelHelpers.interopDefault(_simplelightbox);
 var _simpleLightboxEsm = require("simplelightbox/dist/simple-lightbox.esm");
 var _simpleLightboxEsmDefault = parcelHelpers.interopDefault(_simpleLightboxEsm);
-// Change code below this line
 var _galleryItems = require("./gallery-items");
 const gallery = (0, _galleryItems.galleryItems);
 console.log(gallery);
